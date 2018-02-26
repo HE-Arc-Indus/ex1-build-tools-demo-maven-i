@@ -1,30 +1,68 @@
 # **Christian Gonthier - 3IGTpart**![](http://bgg.kicks-ass.org/trackacces/parimage.php?image=hearc-long-detoure.png&cours=GES-DP180219-INDUS-serie-2)
 
-## GES-DP180219-INDUS-serie 2
+## INDUS-serie 2
 
-1. ​
+1. Régler ses variables d'envrionnements
+   MAVEN_HOME=répertoire ou se trouve maven.cmd
+   et le PATH ...;%MAVERN_HOME%/bin;...
 
-   1. ```
-      javac -cp . Serie1\MesPersonnes.java
-      ```
+2.  Utilisation de Maven
+   Créer un fichier pom.xml avec quelque valeur dedans<?xml version="1.0" encoding="UTF-8"?>
 
-      ça éxecute le programme
+   ```
+   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-      ```
-      java Serie1/MesPersonnes
-      ```
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>ch.hegarc.ig.idl</groupId>
+   <artifactId>IDL_Serie_2</artifactId>
+   <version>TestBidule</version>
+   <packaging>jar</packaging>
+   <properties>
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+       <maven.compiler.source>1.8</maven.compiler.source>
+       <maven.compiler.target>1.8</maven.compiler.target>
+   </properties>
 
-      Exemple :
+   </project>
+   ```
 
-      ```
-      PS C:\WINDOWS\system32> cd C:\tmp
-      PS C:\tmp> javac -cp . Serie1\MesPersonnes.java
-      PS C:\tmp> java Serie1/MesPersonnes
-      Bonjour, je m'appel otot toto.
-      Bonjour, je m'appel utut tutu.
-      PS C:\tmp>
-      ```
+3. Avec le cmd se positionner dans le répertoire ou se trouve les fichiers .java
+   lancer la commande suivante
 
-4. Déposez tous ces fichiers (sources .java, fichiers compilés et notes) dans le devoir correspondant sur github classroom.
+   ```
+   mvn compile
+   ```
+
+   il doit retourner un truc du style[INFO] Scanning for projects...
+
+   ```
+   [INFO]
+   [INFO] ------------------------------------------------------------------------
+   [INFO] Building IDL_Serie_2 TestBidule
+   [INFO] ------------------------------------------------------------------------
+   [INFO]
+   [INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ IDL_Serie_2 ---
+   [debug] execute contextualize
+   [INFO] Using 'UTF-8' encoding to copy filtered resources.
+   [INFO] skip non existing resourceDirectory C:\IG15-GonthierC\Cours\620 Systèmes d'information\625-1.1 Industrialisation du logiciel\Ex2\Serie2\src\main\resources
+   [INFO]
+   [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ IDL_Serie_2 ---
+   [INFO] No sources to compile
+   [INFO] ------------------------------------------------------------------------
+   [INFO] BUILD SUCCESS
+   [INFO] ------------------------------------------------------------------------
+   [INFO] Total time: 0.521s
+   [INFO] Finished at: Mon Feb 26 12:27:26 CET 2018
+   [INFO] Final Memory: 6M/238M
+   [INFO] ------------------------------------------------------------------------
+   ```
+
+   ​
+
+4. sdfsdf
+
+5. sdfsdf
+
+6. ​
 
 (Cette page est auditée)
