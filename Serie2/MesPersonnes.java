@@ -1,5 +1,5 @@
-package Serie1;
-import Serie1.Personne;
+package Serie2;
+import Serie2.Personne;
 
 class MesPersonnes{
 	

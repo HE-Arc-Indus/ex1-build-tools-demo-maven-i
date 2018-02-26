@@ -1,4 +1,4 @@
-package Serie1;
+package Serie2;
 
 class Personne{
 	private String nom;
