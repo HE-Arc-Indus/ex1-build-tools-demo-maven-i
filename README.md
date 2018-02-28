@@ -34,6 +34,35 @@ Il va créer l'arborescence suivante
 ----pom.xml
 ```
 
+Au passage nous pouvons remarquer qu'il a créer un environnement de test Junit par la même occase.
+
+3. Mettre son code
+
+A partir de là nous pouvons retirer le fichier MesPersonnes/src/main/java/Serie2/App.java et remplacer par les fichiers créer pour la série 1 (MesPersonnes.java et Personne.java).
+
+4. Le rendre executable
+
+Il faut modifier le fichier pom.xml, rajouter ce qui suit :
+
+	...
+	<url>http://maven.apache.org</url>
+	<build>
+	    <plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>Serie2.MesPersonnes</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+	...
 
 
 
@@ -45,100 +74,6 @@ Il va créer l'arborescence suivante
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Créer un fichier pom.xml avec quelque valeur dedans<?xml version="1.0" encoding="UTF-8"?>
-
-```
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-<modelVersion>4.0.0</modelVersion>
-<groupId>ch.hegarc.ig.idl</groupId>
-<artifactId>IDL_Serie_2</artifactId>
-<version>TestBidule</version>
-<packaging>jar</packaging>
-<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
-
-</project>
-```
-3. Avec le cmd se positionner dans le répertoire ou se trouve les fichiers .java
-
-lancer la commande suivante
-
-```
-mvn compile
-```
-
-il doit retourner un truc du style[INFO] Scanning for projects...
-
-```
-[INFO]
-[INFO] ------------------------------------------------------------------------
-[INFO] Building IDL_Serie_2 TestBidule
-[INFO] ------------------------------------------------------------------------
-[INFO]
-[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ IDL_Serie_2 ---
-[debug] execute contextualize
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory C:\IG15-GonthierC\Cours\620 Systèmes d'information\625-1.1 Industrialisation du logiciel\Ex2\Serie2\src\main\resources
-[INFO]
-[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ IDL_Serie_2 ---
-[INFO] No sources to compile
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.521s
-[INFO] Finished at: Mon Feb 26 12:27:26 CET 2018
-[INFO] Final Memory: 6M/238M
-[INFO] ------------------------------------------------------------------------
-```
-
-​
-
-sdfsdf
-
-sdfsdf
 
 ​
 
