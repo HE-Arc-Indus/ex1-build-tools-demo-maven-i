@@ -10,7 +10,8 @@
 
 ### Régler ses variables d'envrionnements
 
-MAVEN_HOME=répertoire ou se trouve maven.cmd
+MAVEN_HOME=répertoire au dessus d'où se trouve maven.cmd
+
 et le PATH ...;%MAVERN_HOME%/bin;...
 
 ### Créer son environnement de travail
@@ -85,6 +86,6 @@ Il faut aller dans Série2/target/
 java -jar "MesPersonnes-1.0-SNAPSHOT.jar"
 ```
 
-​
+
 
 (Cette page est auditée)
