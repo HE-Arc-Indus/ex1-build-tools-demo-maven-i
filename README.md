@@ -8,12 +8,12 @@
 
 ## INDUS-serie 2
 
-1. Régler ses variables d'envrionnements
+### Régler ses variables d'envrionnements
 
 MAVEN_HOME=répertoire ou se trouve maven.cmd
 et le PATH ...;%MAVERN_HOME%/bin;...
 
-2. Créer son environnement de travail
+### Créer son environnement de travail
 
 se placer dans son répertoire qui contient tout les projets et taper la commande suivante.
 
@@ -42,11 +42,11 @@ Il va créer l'arborescence suivante
 
 Au passage nous pouvons remarquer qu'il a créer un environnement de test Junit par la même occase.
 
-3. Mettre son code
+### Mettre son code
 
 A partir de là nous pouvons retirer le fichier MesPersonnes/src/main/java/Serie2/App.java et remplacer par les fichiers créer pour la série 1 (MesPersonnes.java et Personne.java).
 
-4. Le rendre executable
+### Le rendre executable
 
 Il faut modifier le fichier pom.xml, rajouter ce qui suit :
 
@@ -67,7 +67,7 @@ Il faut modifier le fichier pom.xml, rajouter ce qui suit :
 	        </plugins>
 	    </build>
 	    <dependencies>
-5. le builder
+### le builder
 
 Executer à la racine (répertoire MesPersonnes)
 
@@ -77,19 +77,13 @@ mvn clean-package
 
 il créera le .jar avec les infos indiqué dans le pom.xml et plein d'autre répertoire que je ne vais pas énuméré ici.
 
-6. Executer son fichier jar
+### Executer son fichier jar
 
 Il faut aller dans Série2/target/
 
 ```
 java -jar "MesPersonnes-1.0-SNAPSHOT.jar"
 ```
-
-
-
-
-
-
 
 ​
 
