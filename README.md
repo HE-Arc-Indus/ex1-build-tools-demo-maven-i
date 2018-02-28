@@ -20,27 +20,19 @@ MesPersonnes = est le nom de projet
 
 Il va créer l'arborescence suivante
 
+```
 --MesPersonnes
-
 ----src
-
 ------main
-
 --------java
-
 ----------Serie2
-
 ------------App.java
-
 ------test
-
 --------java
-
 ----------Serie2
-
 ------------AppTest.java
-
 ----pom.xml
+```
 
 
 
