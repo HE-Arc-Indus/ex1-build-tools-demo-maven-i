@@ -1,4 +1,4 @@
-# **Christian Gonthier **
+# Christian Gonthier 
 
 # Joyce Dubois
 
