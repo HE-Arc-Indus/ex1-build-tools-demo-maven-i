@@ -92,6 +92,6 @@ java -jar "MesPersonnes-1.0-SNAPSHOT.jar"
 
 ### A consulter pour comprendre maven
 
-[Qu&#39;est ce que Maven ?]: http://www-igm.univ-mlv.fr/~dr/XPOSE2004/maven/Maven_II2_Repository.htm	"Qu&#39;est ce que Maven2 ?"
+[]: http://www-igm.univ-mlv.fr/~dr/XPOSE2004/maven/Maven_II2_Repository.htm	"Qu&#39;est ce que Maven ?"
 
 (Cette page est auditée)
