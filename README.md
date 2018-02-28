@@ -92,6 +92,6 @@ java -jar "MesPersonnes-1.0-SNAPSHOT.jar"
 
 ### A consulter pour comprendre maven
 
-[1]: http://www-igm.univ-mlv.fr/~dr/XPOSE2004/maven/Maven_II2_Repository.htm
+http://www-igm.univ-mlv.fr/~dr/XPOSE2004/maven/Maven_Intro.htm
 
 (Cette page est auditée)
