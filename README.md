@@ -51,6 +51,7 @@ A partir de là nous pouvons retirer le fichier MesPersonnes/src/main/java/Serie
 
 Il faut modifier le fichier pom.xml, rajouter ce qui suit :
 
+	    ...
 	    <url>http://maven.apache.org</url>
 	    <build>
 	        <plugins>
@@ -68,9 +69,12 @@ Il faut modifier le fichier pom.xml, rajouter ce qui suit :
 	        </plugins>
 	    </build>
 	    <dependencies>
+	    ...
+Serie2.MesPersonnes sont le package et la classe principale qu'il faut lui indiquer
+
 ### le builder
 
-Executer à la racine (répertoire MesPersonnes)
+Executer à la racine du projet (répertoire MesPersonnes)
 
 ```
 mvn clean-package
