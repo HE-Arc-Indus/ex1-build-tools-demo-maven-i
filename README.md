@@ -47,7 +47,7 @@ Il faut modifier le fichier pom.xml, rajouter ce qui suit :
 	...
 	<url>http://maven.apache.org</url>
 	<build>
-	    <plugins>
+		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
