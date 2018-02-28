@@ -1,4 +1,10 @@
-# **Christian Gonthier - 3IGTpart**![](http://bgg.kicks-ass.org/trackacces/parimage.php?image=hearc-long-detoure.png&cours=GES-DP180219-INDUS-serie-2)
+# **Christian Gonthier **
+
+# Joyce Dubois
+
+# Talha Sabir
+
+# **3IGTpart**![](http://bgg.kicks-ass.org/trackacces/parimage.php?image=hearc-long-detoure.png&cours=GES-DP180219-INDUS-serie-2)
 
 ## INDUS-serie 2
 
