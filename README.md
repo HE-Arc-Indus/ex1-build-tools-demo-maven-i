@@ -63,11 +63,23 @@ Il faut modifier le fichier pom.xml, rajouter ce qui suit :
 	</build>
 	<dependencies>
 	...
+5. le builder
 
+Executer à la racine (répertoire MesPersonnes)
 
+```
+mvn clean-package
+```
 
+il créera le .jar avec les infos indiqué dans le pom.xml et plein d'autre répertoire que je ne vais pas énuméré ici.
 
+6. Executer son fichier jar
 
+Il faut aller dans Série2/target/
+
+```
+java -jar "MesPersonnes-1.0-SNAPSHOT.jar"
+```
 
 
 
