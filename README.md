@@ -77,7 +77,7 @@ Serie2.MesPersonnes sont le package et la classe principale qu'il faut lui indiq
 Executer à la racine du projet (répertoire MesPersonnes)
 
 ```
-mvn clean-package
+mvn package
 ```
 
 il créera le .jar avec les infos indiqué dans le pom.xml et plein d'autre répertoire que je ne vais pas énuméré ici.
